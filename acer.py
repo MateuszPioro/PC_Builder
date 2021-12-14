@@ -7,8 +7,9 @@ class Acer(PC):
         return super().__str__()
          
     
-acer=Acer("acer","intel core i7",16,-1)
+acer=Acer("acer","intel core i7",16,11)
 
+ 
 acer.components_name("cpu","ram")
 print(acer.checking_power_supply())
 print(acer)

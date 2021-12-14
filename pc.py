@@ -16,7 +16,7 @@ class PC:
         self.ram=self.ram, name_ram
         
             
-    @abstractmethod
+   
     def __str__(self):
          return f"Name computer is: {self.name_company}, his cpu is: {self.cpu}, his ram is {self.ram} and power supply {self.power_supply}"
      
